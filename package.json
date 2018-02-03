@@ -1,0 +1,34 @@
+{
+  "name": "log-my-beer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --verbose",
+    "coverage": "react-scripts test --env=jsdom --verbose --coverage",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "src/**/*.jsx",
+      "!src/index.js",
+      "!src/registerServiceWorker.js"
+    ]
+  }
+}
