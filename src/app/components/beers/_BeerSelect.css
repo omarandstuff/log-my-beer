@@ -1,0 +1,96 @@
+.beer-select {
+  outline: none !important; 
+}
+
+.beer-select .beer-select-selected {
+  max-height: 140px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  cursor: pointer;
+  border-width: 3px;
+  border-color: #E7E8E9;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.beer-select:hover .beer-select-selected {
+  border-color: #FBB900;
+  background-color: #fcfcfc;
+}
+
+.beer-select:focus .beer-select-selected {
+  border-radius: 20px 20px 0px 0px;
+  border-color: #FBB900;
+  border-bottom-width: 0;
+  outline: 0;
+}
+
+.beer-select .beer-select-selected .placeholder {
+  padding: 30px;
+}
+
+.beer-select-selected img {
+  height: 100px;
+  padding: 20px;
+}
+
+.beer-select-selected .beer-select-description {
+  padding: 20px;
+}
+
+.beer-select-options {
+  position: relative;
+}
+
+.beer-select-options .beer-select-options-list {
+  position: absolute;
+  display: none;
+  overflow: scroll;
+
+  max-height: 280px;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  cursor: pointer;
+  border-width: 3px;
+  border-color: #FBB900;
+  border-style: solid;
+  box-sizing: border-box;
+
+  box-shadow: inset 0px 18px 20px -18px rgba(179,179,179,1);
+}
+
+.beer-select-options-list .beer-select-option {
+  width: 100%;
+  max-height: 140px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.beer-select-options .beer-select-options-list.show {
+  border-top-width: 0;
+  display: block;
+  opacity: 0;
+}
+
+.beer-select:focus + .beer-select-options .beer-select-options-list.show {
+  opacity: 1;
+}
+
+.beer-select-options-list .beer-select-option:hover {
+  background-color: #FFCE44;
+}
+
+.beer-select-option img {
+  height: 100px;
+  padding: 20px;
+}
+
+.beer-select-option .beer-select-description {
+  padding: 20px;
+}
+
