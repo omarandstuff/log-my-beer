@@ -1,0 +1,11 @@
+.beer-prompt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.beer-prompt h2 {
+  font-size: 30px;
+  padding: 20px;
+}
