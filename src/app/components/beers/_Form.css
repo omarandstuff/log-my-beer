@@ -1,0 +1,41 @@
+.beer-form {
+  padding: 10px;
+}
+
+.beer-form h2 {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.beer-form-actions {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.beer-button {
+  background-color: #ff1000;
+  padding: 15px;
+  margin: 15px;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px 5px 5px 5px;
+  border-width: 1px;
+  border-color: #e0c474;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.beer-button:hover {
+  background-color: #c60c00;
+}
+
+.beer-button:active {
+  background-color: #960900;
+}
+
+.beer-button:disabled {
+  background-color: #ff5044;
+  cursor: auto;
+}
