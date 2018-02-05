@@ -1,0 +1,40 @@
+.beer-scoreboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.beer-scoreboard .beer-score {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beer-score p {
+  padding: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #FF1000;
+
+  border-radius: 20px 20px 20px 20px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  box-shadow: 0px 0px 20px -5px rgba(140,140,140,1);
+}
+
+.beer-sticker {
+  width: 100px;
+}
+
+.beer-sticker.beer-sticker-left {
+  transform: rotate(-10deg);
+}
+
+.beer-sticker.beer-sticker-right {
+  transform: rotate(10deg);
+}
