@@ -1,0 +1,17 @@
+.beer-layout {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F4F4F4;
+}
+
+.beer-layout-logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 20px 0px 20px 0;
+}
+
+.beer-logo {
+  max-width: 150px;
+  width: 80%;
+}
