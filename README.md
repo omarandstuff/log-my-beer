@@ -1,7 +1,9 @@
 # Log My Beer
 [ ![Codeship Status for omarandstuff/log-my-beer](https://app.codeship.com/projects/f9cc7fd0-ec7a-0135-9688-6eaa099eb415/status?branch=master)](https://app.codeship.com/projects/270328)
 
-> Description
+Live: [logmybeer.omarandstuff.com](http://logmybeer.omarandstuff.com/)
+
+## Description
   As a user I want to be able to log my beer at any time.
   At the index page the app should list the beers with the tiny image and brief description(optional)
   in the main page should display the list of beers you've drank, 
